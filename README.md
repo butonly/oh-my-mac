@@ -2,12 +2,16 @@
 
 ## 必备软件
 
+Development
+
 * iTerm2
 * Alfred
 * SwitchHosts
 * Paw
 * Charles
 * Dash
+
+Tools
 
 * iStats
 * Paste
@@ -78,7 +82,7 @@ brew install vim bvi neovim emacs
 Git
 
 ```sh
-brew install git git-flow git-extras git-flow-avh pre-commit tig
+brew install git git-flow git-extras git-flow-avh pre-commit tig gitup
 ```
 
 Build Tools
@@ -87,6 +91,26 @@ Build Tools
 brew install gcc gdb make build-essential cmake ctags pkg-config
 brew install cairo pango libpng jpeg giflib
 ```
+
+Common Commands
+
+```sh
+brew install openssl cfssl easyrsa
+brew install coreutils gnupg gnutls
+brew install htop nload
+brew install pstree
+brew install wget curl telnet
+brew install exa tree
+brew install unrar unzip xz
+brew install ip iproute2mac
+brew install ack fasd ag fzf
+brew install md5sum
+brew install gcloud
+brew install mycli
+brew install jq
+```
+
+Development
 
 ```sh
 brew install node nvm npx yarn
@@ -98,6 +122,12 @@ brew install rust
 brew install r
 brew install perl
 brew install qt
+brew install java
+brew install ipython
+brew install dart
+brew install rustup
+brew install flutter
+brew install jupyter
 brew install chromedriver
 ```
 
@@ -117,23 +147,6 @@ brew install dnsmasq nginx httpd vegeta
 brew install ansible
 brew install vagrant
 brew install jenkins
-```
-
-Common Commands
-
-```sh
-brew install openssl cfssl easyrsa
-brew install coreutils gnupg gnutls
-brew install htop nload
-brew install pstree
-brew install wget curl telnet
-brew install exa tree
-brew install unrar xz
-brew install ip iproute2mac
-brew install ack fasd ag fzf
-brew install md5sum
-brew install gcloud
-brew install mycli
 ```
 
 Proxy
@@ -173,3 +186,13 @@ iTerm2 Extensions
 ```sh
 brew install sudolikeaboss
 ```
+
+VM
+
+```sh
+brew install virtualbox
+```
+
+## Q&A
+
+* [LC_CTYPE: cannot change locale](https://www.jianshu.com/p/2b24861be987)
