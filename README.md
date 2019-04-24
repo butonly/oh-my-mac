@@ -26,6 +26,10 @@ Tools
 ```
 
 ```sh
+brew install zsh
+```
+
+```sh
 echo 'export HOMEBREW_BOTTLE_DOMAIN=https://mirrors.ustc.edu.cn/homebrew-bottles' >> ~/.zshrc
 source ~/.zshrc
 echo 'export HOMEBREW_BOTTLE_DOMAIN=https://mirrors.ustc.edu.cn/homebrew-bottles' >> ~/.bash_profile
@@ -57,6 +61,21 @@ brew tap homebrew/fonts
 
 ```sh
 brew update && brew upgrade
+```
+
+```sh
+brew cask install iina
+brew cask install tower
+brew cask install neteasemusic
+brew cask install Charles
+brew cask install itsycal
+brew cask install vagrant-manager
+brew cask install wechat
+brew cask install wechatwebdevtools
+brew cask install dingtalk
+brew cask install telegram
+brew cask install sketch
+brew cask install ithoughtsx
 ```
 
 ## 命令行
@@ -129,6 +148,7 @@ brew install rustup
 brew install flutter
 brew install jupyter
 brew install chromedriver
+brew install qemu
 ```
 
 ```sh
