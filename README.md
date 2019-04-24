@@ -1,24 +1,5 @@
 # oh-my-mac
 
-## 必备软件
-
-Development
-
-* iTerm2
-* Alfred
-* SwitchHosts
-* Paw
-* Charles
-* Dash
-
-Tools
-
-* iStats
-* Paste
-* Spectacle
-* Scroll Reverser
-* ShadowSocks
-
 ## Homebrew
 
 ```sh
@@ -56,11 +37,35 @@ curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/uninstall
 ```sh
 brew tap homebrew/cask
 brew tap homebrew/science
-brew tap homebrew/fonts
+brew tap homebrew/cask-fonts
 ```
 
 ```sh
 brew update && brew upgrade
+```
+
+必备软件
+
+Development
+
+```sh
+brew cask install iterm2
+brew cask install alfred
+brew cask install dash
+brew cask install charles
+brew cask install wireshark
+brew cask install switchhosts
+brew cask install paw
+```
+
+Tools
+
+```sh
+brew cask install istat-menus
+brew cask install paste
+brew cask install spectacle
+brew cask install shadowsocks-ng
+brew cask install scroll-reverser
 ```
 
 ```sh
