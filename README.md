@@ -7,14 +7,16 @@
 ```
 
 ```sh
-brew install zsh
+echo 'export HOMEBREW_BOTTLE_DOMAIN=https://mirrors.ustc.edu.cn/homebrew-bottles' >> ~/.bash_profile && source ~/.bash_profile
 ```
 
 ```sh
-echo 'export HOMEBREW_BOTTLE_DOMAIN=https://mirrors.ustc.edu.cn/homebrew-bottles' >> ~/.zshrc
-source ~/.zshrc
-echo 'export HOMEBREW_BOTTLE_DOMAIN=https://mirrors.ustc.edu.cn/homebrew-bottles' >> ~/.bash_profile
-source ~/.bash_profile
+brew tap homebrew/cask
+brew tap homebrew/cask-fonts
+```
+
+```sh
+brew update && brew upgrade
 ```
 
 ```sh
@@ -29,22 +31,31 @@ cd "$(brew --repo)/Library/Taps/homebrew/homebrew-python"
 git remote set-url origin https://mirrors.tuna.tsinghua.edu.cn/git/homebrew/homebrew-python.git
 ```
 
+## Fonts
+
 ```sh
-ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/uninstall)"
-curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/uninstall
+brew cask install font-hack-nerd-font
+brew cask install font-source-code-pro
+brew cask install font-awesome-terminal-fonts
+brew cask install font-fontawesome
+```
+
+## Zsh
+
+```sh
+brew install zsh zsh-completions
 ```
 
 ```sh
-brew tap homebrew/cask
-brew tap homebrew/science
-brew tap homebrew/cask-fonts
+sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
 ```
 
 ```sh
-brew update && brew upgrade
+echo 'export HOMEBREW_BOTTLE_DOMAIN=https://mirrors.ustc.edu.cn/homebrew-bottles' >> ~/.zshrc && source ~/.zshrc
+echo 'export HOMEBREW_BOTTLE_DOMAIN=https://mirrors.ustc.edu.cn/homebrew-bottles' >> ~/.bash_profile && source ~/.bash_profile
 ```
 
-必备软件
+## 图形界面
 
 Development
 
@@ -56,6 +67,9 @@ brew cask install charles
 brew cask install wireshark
 brew cask install switchhosts
 brew cask install paw
+brew cask install tower
+brew cask install vagrant-manager
+brew cask install virtualbox
 ```
 
 Tools
@@ -70,11 +84,8 @@ brew cask install scroll-reverser
 
 ```sh
 brew cask install iina
-brew cask install tower
 brew cask install neteasemusic
-brew cask install Charles
 brew cask install itsycal
-brew cask install vagrant-manager
 brew cask install wechat
 brew cask install wechatwebdevtools
 brew cask install dingtalk
@@ -88,13 +99,13 @@ brew cask install ithoughtsx
 Shell
 
 ```sh
-brew install zsh antigen mosh tmux powerline elvish hyper
+brew install antigen asciinema mosh tmux powerline elvish hyper
 ```
 
-Productivity
+Jump
 
 ```sh
-brew install z autojump thefuck asciinema
+brew install z autojump thefuck
 ```
 
 Editor
@@ -120,7 +131,7 @@ Common Commands
 
 ```sh
 brew install openssl cfssl easyrsa
-brew install coreutils gnupg gnutls
+brew install coreutils gnutls gnupg
 brew install htop nload
 brew install pstree
 brew install wget curl telnet
@@ -183,6 +194,9 @@ brew install proxychains-ng
 brew install privoxy
 brew install tsocks
 brew install mitmproxy
+```
+
+```sh
 brew cask install ngrok
 ```
 
@@ -194,28 +208,10 @@ brew install kubectl
 brew upgrade kubernetes-cli
 brew install kubernetes-helm
 brew install helm
+```
+
+```sh
 brew cask install minikube
-```
-
-Fonts
-
-```sh
-brew cask install font-hack-nerd-font
-brew cask install font-source-code-pro
-brew cask install font-awesome-terminal-fonts
-brew cask install font-fontawesome
-```
-
-iTerm2 Extensions
-
-```sh
-brew install sudolikeaboss
-```
-
-VM
-
-```sh
-brew install virtualbox
 ```
 
 ## Q&A
