@@ -86,12 +86,16 @@ brew cask install scroll-reverser
 brew cask install iina
 brew cask install neteasemusic
 brew cask install itsycal
+brew cask install qq
 brew cask install wechat
 brew cask install wechatwebdevtools
 brew cask install dingtalk
 brew cask install telegram
 brew cask install sketch
 brew cask install ithoughtsx
+brew cask install eudic
+brew cask install cheatsheet
+brew cask install scroll-reverser
 ```
 
 ## 命令行
