@@ -13,6 +13,7 @@ echo 'export HOMEBREW_BOTTLE_DOMAIN=https://mirrors.ustc.edu.cn/homebrew-bottles
 ```sh
 brew tap homebrew/cask
 brew tap homebrew/cask-fonts
+brew tap homebrew/cask-versions
 ```
 
 ```sh
@@ -21,14 +22,8 @@ brew update && brew upgrade
 
 ```sh
 # See https://mirrors.tuna.tsinghua.edu.cn/help/homebrew/
-cd "$(brew --repo)"
-git remote set-url origin https://mirrors.tuna.tsinghua.edu.cn/git/homebrew/brew.git
-cd "$(brew --repo)/Library/Taps/homebrew/homebrew-core"
-git remote set-url origin https://mirrors.tuna.tsinghua.edu.cn/git/homebrew/homebrew-core.git
-cd "$(brew --repo)/Library/Taps/homebrew/homebrew-science"
-git remote set-url origin https://mirrors.tuna.tsinghua.edu.cn/git/homebrew/homebrew-science.git
-cd "$(brew --repo)/Library/Taps/homebrew/homebrew-python"
-git remote set-url origin https://mirrors.tuna.tsinghua.edu.cn/git/homebrew/homebrew-python.git
+git -C "$(brew --repo)" remote set-url origin https://mirrors.tuna.tsinghua.edu.cn/git/homebrew/brew.git
+git -C "$(brew --repo)/Library/Taps/homebrew/homebrew-core" remote set-url origin https://mirrors.tuna.tsinghua.edu.cn/git/homebrew/homebrew-core.git
 ```
 
 ## Fonts
@@ -215,6 +210,7 @@ brew install helm
 ```
 
 ```sh
+brew cask install docker
 brew cask install minikube
 ```
 
