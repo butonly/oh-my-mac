@@ -35,6 +35,12 @@ brew cask install font-awesome-terminal-fonts
 brew cask install font-fontawesome
 ```
 
+https://github.com/tonsky/FiraCode
+
+```sh
+brew cask install font-fira-code font-fira-mono font-fira-mono-for-powerline font-fira-sans
+```
+
 ## Zsh
 
 ```sh
