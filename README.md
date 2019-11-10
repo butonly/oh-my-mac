@@ -81,6 +81,7 @@ brew cask install paste
 brew cask install spectacle
 brew cask install shadowsocks-ng
 brew cask install scroll-reverser
+brew cask install background-music
 ```
 
 ```sh
@@ -99,12 +100,27 @@ brew cask install cheatsheet
 brew cask install scroll-reverser
 ```
 
+```sh
+brew cask install eagle
+brew cask install feedly
+brew cask install notion
+brew cask install marginnote
+brew cask install tingings
+brew cask install timing
+brew cask install xmind-zen
+brew cask install pantastical
+```
+
 ## 命令行
 
 Shell
 
 ```sh
 brew install antigen asciinema mosh tmux powerline elvish hyper
+```
+
+```sh
+brew install mas
 ```
 
 Jump
@@ -177,6 +193,10 @@ brew install cloc
 brew install bazel
 ```
 
+```sh
+brew install travis
+```
+
 Server Service Software
 
 ```sh
@@ -199,6 +219,8 @@ brew install proxychains-ng
 brew install privoxy
 brew install tsocks
 brew install mitmproxy
+brew cask install v2rayx
+brew cask install v2rayu
 ```
 
 ```sh
