@@ -41,6 +41,10 @@ https://github.com/tonsky/FiraCode
 brew cask install font-fira-code font-fira-mono font-fira-mono-for-powerline font-fira-sans
 ```
 
+```sh
+brew cask install powerline-fonts
+```
+
 ## Zsh
 
 ```sh
@@ -109,6 +113,41 @@ brew cask install tingings
 brew cask install timing
 brew cask install xmind-zen
 brew cask install pantastical
+brew install raindrop.io
+```
+
+```sh
+brew cask install 1password
+brew cask install steermouse
+brew cask install neteasymusic
+brew cask install keka
+brew cask install handshaker
+brew cask install firefox
+brew cask install neteasemusic
+brew cask install firefox
+brew cask install qqlive
+brew cask install qqmusic
+brew cask install phpstorm
+brew cask install corkscrem
+brew cask install phpdocumentor
+brew cask install keycastr
+brew cask install omnifocus
+brew cask install omnioutliner
+brew cask install omnigraffle
+brew cask install omniplan
+brew cask install mindnode-pro
+brew cask install steam
+brew cask install sketch
+brew cask install evernote
+brew cask install hyperdock
+brew cask install hyperswitch
+brew cask install sogouinput
+brew cask install gas-mask
+brew cask install adobe-acrobat-reader
+brew cask install slack
+brew cask install discord
+brew cask install trello
+brew cask install raindropio
 ```
 
 ## 命令行
@@ -117,6 +156,11 @@ Shell
 
 ```sh
 brew install antigen asciinema mosh tmux powerline elvish hyper
+```
+
+```sh
+brew install vitorgalvao/tiny-scripts/cask-repair
+brew install automake autoconf curl pcre bison re2c mhash libtool icu4c gettext jpeg openssl libxml2 mcrypt gmp libevent zlib BZip2 libbz2-dev iconv libiconv
 ```
 
 ```sh
@@ -164,6 +208,12 @@ brew install md5sum
 brew install gcloud
 brew install mycli
 brew install jq
+brew install ncdu
+```
+
+```sh
+brew install lrzsz
+# https://github.com/aurora/iterm2-zmodem
 ```
 
 Development
@@ -186,6 +236,17 @@ brew install flutter
 brew install jupyter
 brew install chromedriver
 brew install qemu
+```
+
+```sh
+brew install phpbrew
+brew install phpenv
+brew install php-version
+brew install phpdocumentor
+brew install phpdoc
+brew install hhvm
+brew install xdebug
+brew install brew-php-switcher php-code-sniffer php-cs-fixer phplint phpstan phpunit 
 ```
 
 ```sh
@@ -227,6 +288,11 @@ brew cask install v2rayu
 brew cask install ngrok
 ```
 
+```sh
+brew install corkscrew
+brew install connect
+```
+
 Docker & k8s
 
 ```sh
@@ -241,6 +307,39 @@ brew install helm
 brew cask install docker
 brew cask install minikube
 ```
+
+## Skill
+
+命令行支持 TouchID
+
+```sh
+➜ cat /etc/pam.d/sudo
+# sudo: auth account password session
+auth       sufficient     pam_smartcard.so
+auth       required       pam_opendirectory.so
+account    required       pam_permit.so
+password   required       pam_deny.so
+session    required       pam_permit.so
+```
+
+```sh
+sudo sed -i ".bak" '2s/^/auth       sufficient     pam_tid.so\'$'\n/g' /etc/pam.d/sudo
+```
+
+```sh
+➜ cat /etc/pam.d/sudo
+# sudo: auth account password session
+auth       sufficient     pam_tid.so
+auth       sufficient     pam_smartcard.so
+auth       required       pam_opendirectory.so
+account    required       pam_permit.so
+password   required       pam_deny.so
+session    required       pam_permit.so
+```
+
+backupfile: /etc/pam.d/sudo.bak
+
+* [iTerm does not opening Touch ID auth dialog anymore](https://gitlab.com/gnachman/iterm2/issues/7608)
 
 ## Q&A
 
