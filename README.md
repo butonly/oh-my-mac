@@ -152,12 +152,13 @@ brew install --cask raindropio
 Shell
 
 ```sh
-brew install antigen asciinema mosh tmux powerline elvish hyper
+brew install antigen asciinema mosh tmux elvish hyper
 ```
 
 ```sh
 brew install vitorgalvao/tiny-scripts/cask-repair
-brew install automake autoconf curl pcre bison re2c mhash libtool icu4c gettext jpeg openssl libxml2 mcrypt gmp libevent zlib BZip2 libbz2-dev iconv libiconv
+brew install automake autoconf curl pcre bison re2c mhash icu4c gettext jpeg openssl mcrypt gmp BZip2 iconv
+brew install libtool libxml2 libevent zlib libiconv
 ```
 
 ```sh
@@ -173,36 +174,37 @@ brew install z autojump thefuck
 Editor
 
 ```sh
-brew install vim bvi neovim emacs
+brew install vim bvi neovim
+brew install --cask emacs
 ```
 
 Git
 
 ```sh
-brew install git git-flow git-extras git-flow-avh pre-commit tig gitup
+brew install git git-flow git-extras pre-commit tig
+brew install --cask gitup
 ```
 
 Build Tools
 
 ```sh
-brew install gcc gdb make build-essential cmake ctags pkg-config
+brew install gcc gdb make cmake ctags pkg-config
 brew install cairo pango libpng jpeg giflib
 ```
 
 Common Commands
 
 ```sh
-brew install openssl cfssl easyrsa
+brew install openssl cfssl easy-rsa
 brew install coreutils gnutls gnupg
 brew install htop nload
 brew install pstree
 brew install wget curl telnet
 brew install exa tree
-brew install unrar unzip xz
-brew install ip iproute2mac
+brew install unzip xz
+brew install iproute2mac
 brew install ack fasd ag fzf
-brew install md5sum
-brew install gcloud
+brew install md5sha1sum
 brew install mycli
 brew install jq
 brew install ncdu
@@ -216,7 +218,7 @@ brew install lrzsz
 Development
 
 ```sh
-brew install node nvm npx yarn
+brew install node nvm yarn
 brew install python python3 pyenv-virtualenv pyenv virtualenv pip pipenv
 brew install ruby rbenv
 brew install go goenv dep go-delve/delve/delve
