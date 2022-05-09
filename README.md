@@ -29,20 +29,17 @@ git -C "$(brew --repo)/Library/Taps/homebrew/homebrew-core" remote set-url origi
 ## Fonts
 
 ```sh
-brew cask install font-hack-nerd-font
-brew cask install font-source-code-pro
-brew cask install font-awesome-terminal-fonts
-brew cask install font-fontawesome
+brew installfont-hack-nerd-font font-source-code-pro font-awesome-terminal-fonts font-fontawesome
 ```
 
 https://github.com/tonsky/FiraCode
 
 ```sh
-brew cask install font-fira-code font-fira-mono font-fira-mono-for-powerline font-fira-sans
+brew install --cask font-fira-code font-fira-mono font-fira-mono-for-powerline font-fira-sans
 ```
 
 ```sh
-brew cask install powerline-fonts
+brew install --cask powerline-fonts
 ```
 
 ## Zsh
@@ -65,89 +62,89 @@ echo 'export HOMEBREW_BOTTLE_DOMAIN=https://mirrors.ustc.edu.cn/homebrew-bottles
 Development
 
 ```sh
-brew cask install iterm2
-brew cask install alfred
-brew cask install dash
-brew cask install charles
-brew cask install wireshark
-brew cask install switchhosts
-brew cask install paw
-brew cask install tower
-brew cask install vagrant-manager
-brew cask install virtualbox
+brew install --cask iterm2
+brew install --cask alfred
+brew install --cask dash
+brew install --cask charles
+brew install --cask wireshark
+brew install --cask switchhosts
+brew install --cask paw
+brew install --cask tower
+brew install --cask vagrant-manager
+brew install --cask virtualbox
 ```
 
 Tools
 
 ```sh
-brew cask install istat-menus
-brew cask install paste
-brew cask install spectacle
-brew cask install shadowsocks-ng
-brew cask install scroll-reverser
-brew cask install background-music
+brew install --cask istat-menus
+brew install --cask paste
+brew install --cask spectacle
+brew install --cask shadowsocks-ng
+brew install --cask scroll-reverser
+brew install --cask background-music
 ```
 
 ```sh
-brew cask install iina
-brew cask install neteasemusic
-brew cask install itsycal
-brew cask install qq
-brew cask install wechat
-brew cask install wechatwebdevtools
-brew cask install dingtalk
-brew cask install telegram
-brew cask install sketch
-brew cask install ithoughtsx
-brew cask install eudic
-brew cask install cheatsheet
-brew cask install scroll-reverser
+brew install --cask iina
+brew install --cask neteasemusic
+brew install --cask itsycal
+brew install --cask qq
+brew install --cask wechat
+brew install --cask wechatwebdevtools
+brew install --cask dingtalk
+brew install --cask telegram
+brew install --cask sketch
+brew install --cask ithoughtsx
+brew install --cask eudic
+brew install --cask cheatsheet
+brew install --cask scroll-reverser
 ```
 
 ```sh
-brew cask install eagle
-brew cask install feedly
-brew cask install notion
-brew cask install marginnote
-brew cask install tingings
-brew cask install timing
-brew cask install xmind-zen
-brew cask install pantastical
+brew install --cask eagle
+brew install --cask feedly
+brew install --cask notion
+brew install --cask marginnote
+brew install --cask tingings
+brew install --cask timing
+brew install --cask xmind-zen
+brew install --cask pantastical
 brew install raindrop.io
 ```
 
 ```sh
-brew cask install 1password
-brew cask install steermouse
-brew cask install neteasymusic
-brew cask install keka
-brew cask install handshaker
-brew cask install firefox
-brew cask install neteasemusic
-brew cask install firefox
-brew cask install qqlive
-brew cask install qqmusic
-brew cask install phpstorm
-brew cask install corkscrem
-brew cask install phpdocumentor
-brew cask install keycastr
-brew cask install omnifocus
-brew cask install omnioutliner
-brew cask install omnigraffle
-brew cask install omniplan
-brew cask install mindnode-pro
-brew cask install steam
-brew cask install sketch
-brew cask install evernote
-brew cask install hyperdock
-brew cask install hyperswitch
-brew cask install sogouinput
-brew cask install gas-mask
-brew cask install adobe-acrobat-reader
-brew cask install slack
-brew cask install discord
-brew cask install trello
-brew cask install raindropio
+brew install --cask 1password
+brew install --cask steermouse
+brew install --cask neteasymusic
+brew install --cask keka
+brew install --cask handshaker
+brew install --cask firefox
+brew install --cask neteasemusic
+brew install --cask firefox
+brew install --cask qqlive
+brew install --cask qqmusic
+brew install --cask phpstorm
+brew install --cask corkscrem
+brew install --cask phpdocumentor
+brew install --cask keycastr
+brew install --cask omnifocus
+brew install --cask omnioutliner
+brew install --cask omnigraffle
+brew install --cask omniplan
+brew install --cask mindnode-pro
+brew install --cask steam
+brew install --cask sketch
+brew install --cask evernote
+brew install --cask hyperdock
+brew install --cask hyperswitch
+brew install --cask sogouinput
+brew install --cask gas-mask
+brew install --cask adobe-acrobat-reader
+brew install --cask slack
+brew install --cask discord
+brew install --cask trello
+brew install --cask raindropio
 ```
 
 ## 命令行
@@ -280,8 +277,8 @@ brew install proxychains-ng
 brew install privoxy
 brew install tsocks
 brew install mitmproxy
-brew cask install v2rayx
-brew cask install v2rayu
+brew install --cask v2rayx
+brew install --cask v2rayu
 ```
 
 ```sh
@@ -304,8 +301,8 @@ brew install helm
 ```
 
 ```sh
-brew cask install docker
-brew cask install minikube
+brew install --cask docker
+brew install --cask minikube
 ```
 
 ## Skill
