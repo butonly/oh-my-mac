@@ -114,37 +114,43 @@ brew install raindrop.io
 ```
 
 ```sh
-brew install --cask 1password
-brew install --cask steermouse
-brew install --cask neteasymusic
-brew install --cask keka
-brew install --cask handshaker
-brew install --cask firefox
-brew install --cask neteasemusic
-brew install --cask firefox
-brew install --cask qqlive
-brew install --cask qqmusic
-brew install --cask phpstorm
-brew install --cask corkscrem
-brew install --cask phpdocumentor
-brew install --cask keycastr
-brew install --cask omnifocus
-brew install --cask omnioutliner
-brew install --cask omnigraffle
-brew install --cask omniplan
-brew install --cask mindnode-pro
-brew install --cask steam
-brew install --cask sketch
-brew install --cask evernote
-brew install --cask hyperdock
-brew install --cask hyperswitch
-brew install --cask sogouinput
-brew install --cask gas-mask
-brew install --cask adobe-acrobat-reader
-brew install --cask slack
-brew install --cask discord
-brew install --cask trello
-brew install --cask raindropio
+brew cask install 1password
+brew cask install steermouse
+brew cask install neteasymusic
+brew cask install keka
+brew cask install handshaker
+brew cask install firefox
+brew cask install neteasemusic
+brew cask install firefox
+brew cask install qqlive
+brew cask install qqmusic
+brew cask install phpstorm
+brew cask install corkscrem
+brew cask install phpdocumentor
+brew cask install keycastr
+brew cask install omnifocus
+brew cask install omnioutliner
+brew cask install omnigraffle
+brew cask install omniplan
+brew cask install mindnode-pro
+brew cask install steam
+brew cask install sketch
+brew cask install evernote
+brew cask install hyperdock
+brew cask install hyperswitch
+brew cask install sogouinput
+brew cask install gas-mask
+brew cask install adobe-acrobat-reader
+brew cask install slack
+brew cask install discord
+brew cask install gitter
+brew cask install trello
+brew cask install raindropio
+brew cask install clion
+```
+
+```sh
+brew install --cask microsoft-office
 ```
 
 ## 命令行
@@ -305,6 +311,10 @@ brew install helm
 ```sh
 brew install --cask docker
 brew install --cask minikube
+```
+
+```sh
+brew install etcd
 ```
 
 ## Skill
