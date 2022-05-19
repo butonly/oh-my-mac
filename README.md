@@ -228,7 +228,7 @@ brew install node nvm yarn
 brew install python python3 pyenv-virtualenv pyenv virtualenv pip pipenv
 brew install ruby rbenv
 brew install go goenv dep go-delve/delve/delve
-brew install php php5 php56 phpbrew
+brew install php
 brew install rust
 brew install r
 brew install perl
@@ -249,9 +249,13 @@ brew install phpenv
 brew install php-version
 brew install phpdocumentor
 brew install phpdoc
-brew install hhvm
 brew install xdebug
-brew install brew-php-switcher php-code-sniffer php-cs-fixer phplint phpstan phpunit 
+brew install brew-php-switcher php-code-sniffer php-cs-fixer phplint phpstan phpunit
+```
+
+```sh
+brew tap hhvm/hhvm
+brew install hhvm
 ```
 
 ```sh
