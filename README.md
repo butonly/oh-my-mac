@@ -17,7 +17,6 @@ brew update && brew upgrade
 ```sh
 # See https://mirrors.tuna.tsinghua.edu.cn/help/homebrew/
 git -C "$(brew --repo)" remote set-url origin https://mirrors.tuna.tsinghua.edu.cn/git/homebrew/brew.git
-git -C "$(brew --repo)/Library/Taps/homebrew/homebrew-core" remote set-url origin https://mirrors.tuna.tsinghua.edu.cn/git/homebrew/homebrew-core.git
 ```
 
 ## Fonts
