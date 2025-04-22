@@ -11,12 +11,6 @@ echo 'export HOMEBREW_BOTTLE_DOMAIN=https://mirrors.ustc.edu.cn/homebrew-bottles
 ```
 
 ```sh
-brew tap homebrew/cask
-brew tap homebrew/cask-fonts
-brew tap homebrew/cask-versions
-```
-
-```sh
 brew update && brew upgrade
 ```
 
