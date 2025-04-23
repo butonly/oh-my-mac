@@ -22,7 +22,7 @@ git -C "$(brew --repo)" remote set-url origin https://mirrors.tuna.tsinghua.edu.
 ## Fonts
 
 ```sh
-brew installfont-hack-nerd-font font-source-code-pro font-awesome-terminal-fonts font-fontawesome
+brew install font-hack-nerd-font font-source-code-pro font-awesome-terminal-fonts font-fontawesome
 ```
 
 https://github.com/tonsky/FiraCode
